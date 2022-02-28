@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная</title>
+    <link rel="stylesheet" href="vcss.css">
+    <link rel="stylesheet" type="text.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script>
+    function go() {
+            window.timerId=window.setInterval(timer, 1600);
+        }  
+        function timer() {
+            if (window.number == undefined || window.number == 7) {//картинки от 1 до 7
+                window.number = 1;
+            }
+            else {
+                window.number = window.number + 1; 
+            }
+            var img = document.getElementById('slayderr');
+            img.src = 'images/'+window.number+'.jpg' 
+        }
+    </script>
+
+</head>
+
+<body onload="go()"> 
+    
+    <div class="yak">
+	<img src="logo.png" alt="" id="surati1um">
+	<p>Мебель для вашего дома</p>
+	<input type="text" id="poiskovik" placeholder="Поиск мебели по названию, артикулу или описанию">
+	<button class="">Search</button>
+	</div>
+	
+    <div class="hamasi" id="hamasi">
+        <div id="nav" class="nav"><br><br><br>
+            
+            <a href="vhi.html" class="name1">Главная</a>
+            <a href="aksii.html" class="name3">Мебель со скидкой</a>
+            <a href="onas.html" class="name5">О компании</a>
+            <a href="kontakti.html" class="name6">Контакты</a>
+        </div>
+
+
+    <div class="banner" id="banner">
+        <a href="divan/divan.html">
+            <div class="bname1">
+                <h3>Диваны</h3>
+            </div>
+        </a>
+        
+        
+        
+        
+        <a href="stol/stol.html">
+            <div class="bname2">
+            <h3>Столы</h3>
+        </div>
+    </a>
+       <br>
+        
+        
+       <a href="stul/stul.html"> <div class="bname3">
+            <h3>Стулья</h3>
+        </div>
+    </a>
+        <br>
+       
+       
+        <a href="shcaf/shcaf.html"><div class="bname4">
+            <h3>Шкафы</h3>
+        </div>
+    </a>
+        <br>
+        
+
+       <a href="crovat/crovat.html">
+        <div class="bname5">
+            <h3>Кровати</h3>
+        </div>
+    </a>
+        <br>
+    
+    
+    </div>
+
+    <div class="plus">
+        <h1>Каталог мебели</h1>
+         
+    </div>
+
+    	
+    <div id="wrapper">
+        <img src="images/1.jpg" id="slayderr">
+    </div>
+    
+
+
+<footer class="footer">
+<div class="container">
+    <div class="row">
+<div class="footer-col">
+<h4>Покупателям</h4>
+<ul>
+<li><a href="aksii.html">Каталоги</a></li>
+</ul>
+</div>
+<div class="footer-col">
+    <h4>Мебель для офисов и гостиниц</h4>
+    <ul>
+    <li><a href="divan/divan.html">Диваны</a></li>
+    <li><a href="stol/stol.html">Столы</a></li>
+    <li><a href="stul/stul.html">Стулья</a></li>
+    <li><a href="shcaf/shcaf.html">Шкафы</a></li>
+    <li><a href="crovat/crovat.html">Кровати</a></li>
+    </ul>
+    </div>
+           <div class="footer-col">
+            <h4>Контакты</h4>
+            <ul>
+            <li><a href="onas.html">Контакты служб</a></li>
+            <li><a href="#">(+992) 92 941 88 58</a></li>
+            <li><a href="#">info@milano.tj</a></li>
+            </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Разработчик</h4>
+                <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#">Fozilov Daler</a></li>
+                </ul>
+                </div>
+     </div>
+    </div>
+</div>    
+</footer>
+</body>
+</html>
